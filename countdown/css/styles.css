@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Handlee');
+
+body {
+    padding-top: 70px;
+    background-color: darkgoldenrod;
+}
+
+.heading {
+    text-align: center;
+    font-size: 42px;
+    color: #fff;
+    margin: 15px;
+}
+
+#clockdiv {
+    text-align: center;
+    margin: 0px;
+
+}
+
+#clockdiv > #display {
+    background-color: #ff8686;
+    margin: 5px;
+    border-radius: 5px;
+    display: grid;
+    color: #fff;
+    font-family: Handlee;
+    font-size: 18px;
+}
+
+.time {
+    background-color: #000;
+    color: #fff;
+    margin-top: 10px;
+    display: block;
+    border-radius: 3px;
+    font-size: 36px;
+    width: auto;
+    height: auto;
+}
+
