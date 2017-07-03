@@ -1,0 +1,109 @@
+.well {
+    margin-bottom: 2px;
+}
+.skills {
+    color: #333;
+    font-family: Lobster;
+    font-size: 28px;
+}
+
+.skills-container {
+    width: 620px;
+    margin-left: 33%;
+    margin-right: 33%;
+    
+}
+
+.languages, .ux {
+    font-weight: bold;
+    margin-top: 0px !important;
+}
+
+.bar-container {
+    width: 100%;
+    margin-top: 30px;
+    height: 100px;
+    position:relative;
+}
+
+.bar {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.bar {
+    width: 0;
+    bottom: 0;
+    position: absolute;
+    opacity: 0;
+    height: 20px;
+    color: #fff;
+}
+
+.html {
+    background-color: #16a085; 
+    bottom: 100px;
+}
+
+.css {
+    background-color: #27ae60; 
+    bottom: 80px;
+}
+
+.js {
+    background-color: #77B1A9;
+    bottom: 60px;
+}
+
+.jquery {
+    background-color: #e74c3c;
+    bottom: 40px;
+}
+
+.angular {
+    background-color: #9b59b6;
+    bottom: 20px;
+}
+
+.interaction {
+    background-color: #16a085; 
+    bottom: 100px;
+}
+
+.wire {
+    background-color: #27ae60; 
+    bottom: 80px;
+}
+
+.visual {
+    background-color: #77B1A9;
+    bottom: 60px;
+}
+
+.usability {
+    background-color: #e74c3c;
+    bottom: 40px;
+}
+
+.card {
+    background-color: #9b59b6;
+    bottom: 20px;
+}
+
+/* media queries */
+@media only screen and (max-width: 1000px) {
+    .skills-container {
+        width: 620px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .skills-container {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+}
